@@ -10,6 +10,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            //Código apenas para deixar o a execução mais bonita...
+            Console.SetWindowSize(150, 30);
+            Console.Title = "C#, Aula1 - Exercícios";
+            //fim da viadagem
+
+
+
+
+
+            Console.ReadKey();
 
 
         }

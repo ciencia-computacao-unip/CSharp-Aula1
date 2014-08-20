@@ -30,7 +30,7 @@ namespace ConsoleApplication1
 
             //inicio exercício 2
             Console.WriteLine("2) Faça um programa que tenha como resultado de saída o nome de 5 times de futebol, sendo que cada nome deve estar em uma linha.");
-            string[] times = new string[5] { "Ponte Preta", "Brasil", "Foda-se, não gosto de futebol","Maria Bethania","Não sei se Maria Bethania está certo" };
+            string[] times = new string[5] { "Ponte Preta", "Brasil", "Foda-se, não gosto de futebol","Maria Bethania","Não sei porque pensei em Maria Bethania" };
             for (int x = 0; x < times.Length; x++){
                 Console.WriteLine(times[x]);
             }

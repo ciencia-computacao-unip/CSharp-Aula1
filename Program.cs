@@ -26,7 +26,15 @@ namespace ConsoleApplication1
             Console.WriteLine("A soma dos dois números é " + soma);
             //fim exercício 1
 
+            Console.Write("\n\n\n");
 
+            //inicio exercício 2
+            Console.WriteLine("2) Faça um programa que tenha como resultado de saída o nome de 5 times de futebol, sendo que cada nome deve estar em uma linha.");
+            string[] times = new string[5] { "Ponte Preta", "Brasil", "Foda-se, não gosto de futebol","Maria Bethania","Não sei se Maria Bethania está certo" };
+            for (int x = 0; x < times.Length; x++){
+                Console.WriteLine(times[x]);
+            }
+            //fim exercício 2
 
 
             Console.ReadKey();

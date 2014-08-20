@@ -47,6 +47,18 @@ namespace ConsoleApplication1
             //fim exercício 3
 
 
+            Console.Write("\n\n\n");
+
+            //inicio exercício 4
+            Console.WriteLine("4) Faça um programa que armazene em uma variável NUM1 o valor 5 e em outra variável NUM2 armazene o número 9. Calcule a multiplicação destas duas variáveis e armazene em uma variável chamada RES. Ao final exiba todos os valores.");
+            int NUM1, NUM2, multiplicacao;
+            NUM1 = 5;
+            NUM2 = 9;
+            multiplicacao = NUM1 * NUM2;
+            Console.WriteLine("O primeiro número é " + NUM1);
+            Console.WriteLine("O segundo número é " + NUM2);
+            Console.WriteLine("A multiplicação dos dois números é " + multiplicacao);
+            //fim exercício 4
         }
     }
 }

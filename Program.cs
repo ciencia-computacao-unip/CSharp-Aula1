@@ -17,13 +17,12 @@ namespace ConsoleApplication1
 
             //inicio exercício 1
             Console.WriteLine("1) Faça um programa que exiba na tela o resultado da soma dos números 55 e 60.\n");
-            int primeiro_numero, segundo_numero, soma;
+            int primeiro_numero, segundo_numero;
             primeiro_numero = 55;
             segundo_numero = 60;
             Console.WriteLine("O Primeiro número é "+primeiro_numero);
             Console.WriteLine("O Segundo número é " + segundo_numero);
-            soma = primeiro_numero + segundo_numero;
-            Console.WriteLine("A soma dos dois números é " + soma);
+            Console.WriteLine("A soma dos dois números é " + (primeiro_numero + segundo_numero));
             //fim exercício 1
 
             Console.Write("\n\n\n");

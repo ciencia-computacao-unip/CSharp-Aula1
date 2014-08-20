@@ -38,7 +38,6 @@ namespace ConsoleApplication1
 
             Console.Write("\n\n\n");
 
-            Console.ReadKey();
             //inicio exercício 3
             Console.WriteLine("3) Faça um programa que exiba na tela o resultado do dobro do número 11.");
             int numero;
@@ -59,6 +58,9 @@ namespace ConsoleApplication1
             Console.WriteLine("O segundo número é " + NUM2);
             Console.WriteLine("A multiplicação dos dois números é " + multiplicacao);
             //fim exercício 4
+
+
+            Console.ReadKey();
         }
     }
 }

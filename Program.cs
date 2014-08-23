@@ -17,20 +17,19 @@ namespace ConsoleApplication1
 
             //inicio exercício 1
             Console.WriteLine("1) Faça um programa que exiba na tela o resultado da soma dos números 55 e 60.\n");
-            int primeiro_numero, segundo_numero, soma;
+            int primeiro_numero, segundo_numero;
             primeiro_numero = 55;
             segundo_numero = 60;
             Console.WriteLine("O Primeiro número é "+primeiro_numero);
             Console.WriteLine("O Segundo número é " + segundo_numero);
-            soma = primeiro_numero + segundo_numero;
-            Console.WriteLine("A soma dos dois números é " + soma);
+            Console.WriteLine("A soma dos dois números é " + (primeiro_numero + segundo_numero));
             //fim exercício 1
 
             Console.Write("\n\n\n");
 
             //inicio exercício 2
             Console.WriteLine("2) Faça um programa que tenha como resultado de saída o nome de 5 times de futebol, sendo que cada nome deve estar em uma linha.");
-            string[] times = new string[5] { "Ponte Preta", "Brasil", "Foda-se, não gosto de futebol","Maria Bethania","Não sei se Maria Bethania está certo" };
+            string[] times = new string[5] { "Ponte Preta", "Brasil", "Foda-se, não gosto de futebol","Maria Bethania","Não sei porque pensei em Maria Bethania" };
             for (int x = 0; x < times.Length; x++){
                 Console.WriteLine(times[x]);
             }
@@ -50,13 +49,13 @@ namespace ConsoleApplication1
 
             //inicio exercício 4
             Console.WriteLine("4) Faça um programa que armazene em uma variável NUM1 o valor 5 e em outra variável NUM2 armazene o número 9. Calcule a multiplicação destas duas variáveis e armazene em uma variável chamada RES. Ao final exiba todos os valores.");
-            int NUM1, NUM2, multiplicacao;
+            int NUM1, NUM2, RES;
             NUM1 = 5;
             NUM2 = 9;
-            multiplicacao = NUM1 * NUM2;
+            RES = NUM1 * NUM2;
             Console.WriteLine("O primeiro número é " + NUM1);
             Console.WriteLine("O segundo número é " + NUM2);
-            Console.WriteLine("A multiplicação dos dois números é " + multiplicacao);
+            Console.WriteLine("A multiplicação dos dois números é " + RES);
             //fim exercício 4
 
 
